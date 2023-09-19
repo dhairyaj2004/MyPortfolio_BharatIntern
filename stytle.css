@@ -114,7 +114,12 @@ body, ul {
   #projects h2 {
     color: #e74c3c;
   }
+  #projects h3 {
+    text-align: center;
+    color: #e74c3c;
+  }
   #projects li {
+    text-align: center;
     margin-bottom: 10px;
     padding: 0.5rem 1.5rem 1rem;
     border-radius: 1.5rem;
@@ -123,7 +128,7 @@ body, ul {
     color: #fff;
   }
   #projects h4 {
-    
+    text-align: center;
     color: #e74c3c;
   }
   ul li a {
@@ -139,10 +144,9 @@ body, ul {
     margin-top: 1rem;
   }
   #contact {
-    
     padding: 20px;
     text-decoration: none;
-    background: #696969;
+    background: #b6b6b6;
   }
   #contact h2 {
     color: #e74c3c;

@@ -1,0 +1,172 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+.right-section{
+    text-align: left;
+    margin-left: 120px;
+}
+/* Style the sidebar */
+.sidebar {
+    background-color: #696969; /* Background color of the sidebar */
+    color: #fff; /* Text color */
+    width: 120px; /* Width of the sidebar */
+    height: 100%; /* Make the sidebar full height */
+    position: fixed; /* Fix the sidebar in place */
+    top: 0; /* Align the top of the sidebar with the top of the viewport */
+    left: 0; /* Align the left side of the sidebar with the left side of the viewport */
+}
+
+/* Style the sidebar links */
+.sidebar ul {
+    list-style: none; /* Remove list bullets */
+    padding: 20px; /* Add some padding to the list */
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+   /* Add spacing between list items */
+}
+.sidebar ul img{
+    width: 50px;
+}
+.sidebar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    display: block; /* Make the entire list item clickable */
+}
+/* Center the #container .id element */
+.content {
+    display: flex;
+    justify-content: center; /* Center horizontally */ 
+    align-items: center;
+    height: 100vh; /* Make sure it covers the entire viewport height */
+    background: #000;
+    color: #fff;
+    
+}
+.content .container{
+    display: flex;
+    box-shadow:  0px 0px 0px 5px #696969;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #222020;
+   
+}
+.content .container h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content .container p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.content img {
+    max-width: 400px; /* Adjust the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Add spacing between the image and text */
+}
+#about {
+    padding: 20px;
+    background: #000000;
+    /* margin-bottom: 20px; */
+    text-decoration: none;
+    box-shadow: 0 0px 0px 5 rgba(0, 0, 0, 0.2);
+    color: #fffbfb;
+  }
+  #about h2 {
+    color: #e74c3c;
+  }
+  #about p{
+  font-size: 20px;
+  }
+  #skills h2 {
+    color: #e74c3c;
+  }
+  #skills li {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0.5rem 1.5rem 1rem;
+    border-radius: 1.5rem;
+    background: #696969;
+    list-style-type: none;
+  }
+  #skills ul li {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li + li {
+    margin-top: 1rem;
+  }
+  #projects {
+    
+    padding: 20px;
+    background: #000;
+    text-decoration: none;
+    /* margin-bottom: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #e74c3c;
+  }
+  #projects h2 {
+    color: #e74c3c;
+  }
+  #projects li {
+    margin-bottom: 10px;
+    padding: 0.5rem 1.5rem 1rem;
+    border-radius: 1.5rem;
+    background: #696969;
+    list-style-type: none;
+    color: #fff;
+  }
+  #projects h4 {
+    
+    color: #e74c3c;
+  }
+  ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  li + li {
+    margin-top: 1rem;
+  }
+  #contact {
+    
+    padding: 20px;
+    text-decoration: none;
+    background: #696969;
+  }
+  #contact h2 {
+    color: #e74c3c;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Add a hover effect */
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+

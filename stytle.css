@@ -6,41 +6,41 @@ body, ul {
     text-align: left;
     margin-left: 120px;
 }
-/* Style the sidebar */
+
 .sidebar {
-    background-color: #696969; /* Background color of the sidebar */
-    color: #fff; /* Text color */
-    width: 120px; /* Width of the sidebar */
-    height: 100%; /* Make the sidebar full height */
-    position: fixed; /* Fix the sidebar in place */
-    top: 0; /* Align the top of the sidebar with the top of the viewport */
-    left: 0; /* Align the left side of the sidebar with the left side of the viewport */
+    background-color: #696969;
+    color: #fff;
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-/* Style the sidebar links */
+
 .sidebar ul {
-    list-style: none; /* Remove list bullets */
-    padding: 20px; /* Add some padding to the list */
+    list-style: none;
+    padding: 20px;
 }
 
 .sidebar ul li {
     margin-bottom: 10px;
-   /* Add spacing between list items */
+  
 }
 .sidebar ul img{
     width: 50px;
 }
 .sidebar ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Text color for links */
-    display: block; /* Make the entire list item clickable */
+    text-decoration: none;
+    color: #fff;
+    display: block;
 }
-/* Center the #container .id element */
+
 .content {
     display: flex;
-    justify-content: center; /* Center horizontally */ 
+    justify-content: center; 
     align-items: center;
-    height: 100vh; /* Make sure it covers the entire viewport height */
+    height: 100vh;
     background: #000;
     color: #fff;
     
@@ -65,14 +65,14 @@ body, ul {
     
 }
 .content img {
-    max-width: 400px; /* Adjust the maximum width of the image */
-    height: auto; /* Maintain the aspect ratio */
-    margin-right: 20px; /* Add spacing between the image and text */
+    max-width: 400px;
+    height: auto;
+    margin-right: 20px;
 }
 #about {
     padding: 20px;
     background: #000000;
-    /* margin-bottom: 20px; */
+   
     text-decoration: none;
     box-shadow: 0 0px 0px 5 rgba(0, 0, 0, 0.2);
     color: #fffbfb;
@@ -107,7 +107,7 @@ body, ul {
     padding: 20px;
     background: #000;
     text-decoration: none;
-    /* margin-bottom: 20px; */
+   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: #e74c3c;
   }
@@ -168,7 +168,7 @@ body, ul {
     height: 30px;
   }
   
-  /* Add a hover effect */
+ 
   .social-icons a:hover {
     transform: scale(1.1);
   }

@@ -4,13 +4,14 @@ body, ul {
 }
 .right-section{
     text-align: left;
-    margin-left: 120px;
+    margin-left: 90px;
 }
 
 .sidebar {
+  margin-bottom: 50px;
     background-color: #696969;
     color: #fff;
-    width: 120px;
+    width: 90px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -172,5 +173,16 @@ body, ul {
   .social-icons a:hover {
     transform: scale(1.1);
   }
+  .btn {
+    background-color: #696969;
+    border: none;
+    color: white;
+    padding: 12px 19px;
+    font-size: 56px;
+    cursor: pointer;
+  }
   
-
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: white;
+  }
